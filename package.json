@@ -6,6 +6,7 @@
     "client-dev": "npx webpack --watch",
     "server-dev": "npx webpack --watch server server/index.js"
   },
+
   "devDependencies": {
     "eslint": "^8.32.0",
     "eslint-config-airbnb": "^19.0.4",
