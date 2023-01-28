@@ -1,0 +1,17 @@
+{
+  "name": "PenguizPlus",
+  "version": "1.0.0",
+  "license": "Unlicensed",
+  "scripts": {
+    "client-dev": "npx webpack --watch",
+    "server-dev": "npx webpack --watch server server/index.js"
+  },
+  "devDependencies": {
+    "eslint": "^8.32.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.32.1",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  }
+}
