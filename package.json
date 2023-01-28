@@ -4,11 +4,12 @@
   "license": "Unlicensed",
   "scripts": {
     "client-dev": "npx webpack --watch",
-    "server-dev": "npx webpack --watch server server/index.js"
+    "server-dev": "npx nodemon --watch server server/index.js"
   },
   "dependencies": {
     "express": "^4.18.2",
     "mysql2": "^3.0.1",
+    "nodemon": "^2.0.20",
     "path": "^0.12.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
