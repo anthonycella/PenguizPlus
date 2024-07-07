@@ -1,7 +1,13 @@
 import React from 'react';
+import PushMeButton from './buttonsrizz';
 
 function App() {
-  return <div class='test'>I am batman</div>;
+  return (
+    <div>
+      <div className="test">I am batman</div>
+      <PushMeButton />
+    </div>
+  );
 }
 
 export default App;
